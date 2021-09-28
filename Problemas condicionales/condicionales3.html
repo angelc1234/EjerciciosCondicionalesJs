@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Condicional 3</title>
+</head>
+<script>
+    /*
+      Realizar el programa que solicite 3 notas de un estudiante, calcle el promedio e indique si esta
+      aprobado o reprobado sabiendo que se aprueba con una nota mayor o igual a 70. Utilice template strings
+      para mostrar salidas
+      Realizado por: Angel Caballero
+    */
+   var nota1
+   var nota2
+   var nota3
+   nota1= parseInt(prompt("Ingresa la nota 1"))
+   nota2= parseInt(prompt("Ingresa la nota 2"))
+   nota3= parseInt(prompt("Ingresa la nota 3"))
+   var sumanota=nota1+nota2+nota3
+   var promedio=sumanota/3
+
+   if(promedio>=70){
+       alert(`Tu promedio es: ${promedio}`)
+       alert(`Aprobado`)
+   }else{
+    alert(`Tu promedio es: ${promedio}`)
+       alert(`Reprobado`)
+   }
+   
+   
+</script>
+<body>
+    
+</body>
+</html>
